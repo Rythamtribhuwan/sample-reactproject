@@ -1,34 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+      function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+    <div style={{
+      minHeight: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      background: "#f5f7fa",
+      fontFamily: "Arial, sans-serif"
+    }}>
+      <div style={{
+        background: "white",
+        padding: "50px",
+        borderRadius: "16px",
+        textAlign: "center",
+        boxShadow: "0 10px 30px rgba(0,0,0,0.1)"
+      }}>
+        <h1 style={{ color: "#16a34a" }}>
+          🚀 React Project Successfully Deployed
+        </h1>
+
+        <h2>
+          Version 1.0.0 LIVE
+        </h2>
+
+        <p style={{ color: "#666" }}>
+          Jenkins + React + PM2
+        </p>
+
+        <p style={{ color: "#888" }}>
+          Deployment Successful ✅
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
