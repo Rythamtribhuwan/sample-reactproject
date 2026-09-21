@@ -1,5 +1,5 @@
 
-    ```jsx
+    jsx
 function App() {
   return (
     <div
@@ -22,11 +22,9 @@ function App() {
           maxWidth: "650px",
         }}
       >
-        <div style={{ fontSize: "60px", marginBottom: "15px" }}>
-          🚀
-        </div>
+        <div style={{ fontSize: "60px" }}>🚀</div>
 
-        <h1 style={{ color: "#16a34a", marginBottom: "15px" }}>
+        <h1 style={{ color: "#16a34a" }}>
           Successfully Deployed!
         </h1>
 
@@ -61,7 +59,3 @@ function App() {
 }
 
 export default App;
-```
-
-    
-     
